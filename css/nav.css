@@ -1,0 +1,43 @@
+ul {
+  position: fixed;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  border-bottom: 1px solid black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  border-right: 1px solid black;
+}
+
+li a:hover {
+  background-color: #ddd;
+}
+
+li a.logo:hover {
+  background-color: white;
+}
+
+.outer-logo {
+  float: right;
+}
+
+.logo {
+  border-right: 0px solid black;
+}
+
