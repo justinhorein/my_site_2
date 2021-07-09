@@ -1,5 +1,6 @@
 :root {
   --grey: rgb(169, 169, 169);
+  --neon-green: rgb(64, 255, 0);
 }
 
 .nav {
@@ -46,7 +47,8 @@ li a:hover {
 .logo {
   float: right;
   padding: 14px 20px;
-  color: inherit;
-  font-size: 20px;
+  color: var(--neon-green);
+  font-size: 22px;
+  font-weight: 900;
 }
 
