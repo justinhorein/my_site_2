@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto Mono', monospace;
-    
+    margin: 0px;
 }
 
 .background1 {
@@ -8,15 +8,17 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: absolute; */
-    
-    top: 0;
-    left: 0;
-    width: 100%;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: auto;
 }
 
 div.background1 img {
     width: 100%;
     filter: grayscale(100%);
-    position: absolute;
-    left: 0;
+}
+
+p {
+    word-wrap: break-word;
 }
