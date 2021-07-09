@@ -1,3 +1,7 @@
+:root {
+  --grey: rgb(169, 169, 169);
+}
+
 .nav {
   position: absolute;
   display: block;
@@ -5,10 +9,11 @@
   top: 0;
   left: 0;
   width: 100%;
-  color: #666;
+  height: 57.6px;
+  color: black;
   background-color: #ffffff;
-  border-bottom: 1px solid black;
-  
+  border-bottom: 1px solid var(--grey);
+  overflow: hidden;
 }
 
 ul { 
@@ -28,9 +33,10 @@ li a {
   display: block;
   color: inherit;
   text-align: center;
-  padding: 14px 20px;
+  padding: 18px 20px;
+  margin: auto;
   text-decoration: none;
-  border-right: 1px solid black;
+  border-right: 1px solid var(--grey);
 }
 
 li a:hover {
@@ -39,7 +45,6 @@ li a:hover {
 
 .logo {
   float: right;
-  border-right: 0px solid black;
   padding: 14px 20px;
   color: inherit;
   font-size: 20px;
