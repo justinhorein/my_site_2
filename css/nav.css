@@ -57,7 +57,8 @@ li a:hover {
 
 .logo {
   float: right;
-  padding: 14px 20px;
+  text-align: center;
+  padding: 12px 20px;
   color: var(--neon-green);
   font-size: 22px;
   font-weight: 900;
