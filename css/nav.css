@@ -1,15 +1,23 @@
-ul {
-  position: fixed;
+.nav {
+  position: absolute;
   display: block;
+  height: auto;
   top: 0;
   left: 0;
   width: 100%;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+  color: #666;
   background-color: #ffffff;
   border-bottom: 1px solid black;
+  
+}
+
+ul { 
+  list-style-type: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 li {
@@ -18,7 +26,7 @@ li {
 
 li a {
   display: block;
-  color: #666;
+  color: inherit;
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
@@ -26,18 +34,13 @@ li a {
 }
 
 li a:hover {
-  background-color: #ddd;
-}
-
-li a.logo:hover {
-  background-color: white;
-}
-
-.outer-logo {
-  float: right;
+  background-color: rgb(185, 247, 61);
 }
 
 .logo {
+  float: right;
   border-right: 0px solid black;
+  padding: 14px 20px;
+  color: inherit;
 }
 
