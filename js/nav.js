@@ -1,9 +1,10 @@
 const burger = document.querySelector(".hamburger");
-const ul = document.querySelector("ul");
+const navVert = document.querySelector(".nav_vert");
+const vertCells = document.querySelectorAll("ul.nav_vert li a")
 
 function flipBurger() {
     // alert("f")
-    ul.classList.toggle("display")
+   navVert.classList.toggle("displayVert")
 }
 
 burger.addEventListener("click", flipBurger);
