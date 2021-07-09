@@ -44,11 +44,29 @@ li a:hover {
   background-color: rgb(185, 247, 61);
 }
 
+.hamburger {
+  display: none;
+  float: left;
+  margin: auto auto auto 10px;
+  height: 55px;
+  width: auto;
+}
+
 .logo {
   float: right;
   padding: 14px 20px;
   color: var(--neon-green);
   font-size: 22px;
   font-weight: 900;
+}
+
+@media (max-width: 505px){
+  ul {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
 }
 
