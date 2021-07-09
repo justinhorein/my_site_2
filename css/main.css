@@ -1,3 +1,22 @@
 body {
     font-family: 'Roboto Mono', monospace;
+    
+}
+
+.background1 {
+    /* background: url("../img/desk_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: absolute; */
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+div.background1 img {
+    width: 100%;
+    filter: grayscale(100%);
+    position: absolute;
+    left: 0;
 }
