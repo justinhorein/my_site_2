@@ -80,11 +80,14 @@ li a:hover {
   flex-direction: column;
   position: absolute;
   left: 0;
-  margin-top: 57.6px;
+  margin-top: 57.8px;
+  background-color: white;
+  color: var(--grey);
+  z-index: 100;
 }
 
 .vert_cell {
-  border-bottom: 1px solid var(--grey);
+  border-bottom: 1px solid black;
 }
 
 .displayVert {
