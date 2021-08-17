@@ -8,40 +8,126 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/groovy_cards.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
 </head>
 <body>
     <div class="nav">
         <img class="hamburger" src="img/hamburger.jpeg">
         <ul>
-            <li><a href="#home">Hello</a></li>
-            <li><a href="#news">Projects</a></li>
+            <li><a href="#hello">Hello</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>           
         </ul>
-        <a class="logo">Justin Horein</a>
+        <a class="logo" href="#hello">Justin Horein</a>
     </div>
 
     <!-- Hidden Vertical Nav -->
     <ul class="nav_vert">
-            <li><a class="vert_cell" href="#home">Hello</a></li>
-            <li><a class="vert_cell" href="#news">Projects</a></li>
+            <li><a class="vert_cell" href="#hello">Hello</a></li>
+            <li><a class="vert_cell" href="#about">About</a></li>
+            <li><a class="vert_cell" href="#projects">Projects</a></li>
             <li><a class="vert_cell" href="#contact">Contact</a></li>           
     </ul>
 
-    <div class="background1">
+    <div class="section_1" id="hello">
         <img src="img/desk_1.jpg">
     </div>
 
-    <div>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Gravida neque convallis a cras semper auctor neque vitae. Tincidunt dui ut ornare lectus sit amet est. Senectus et netus et malesuada fames ac. Ut aliquam purus sit amet. Massa ultricies mi quis hendrerit dolor magna. Porta non pulvinar neque laoreet suspendisse interdum consectetur. Suspendisse ultrices gravida dictum fusce ut. Auctor eu augue ut lectus. Amet massa vitae tortor condimentum lacinia quis vel eros donec.
+    <!-- // Kards -->
+    <div class="" id="projects">
 
-        Pellentesque habitant morbi tristique senectus et netus et malesuada fames. Volutpat odio facilisis mauris sit amet. Imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Fermentum posuere urna nec tincidunt praesent semper feugiat. In fermentum et sollicitudin ac orci phasellus egestas. Malesuada fames ac turpis egestas sed tempus urna et pharetra. Scelerisque eu ultrices vitae auctor eu augue ut lectus. Malesuada fames ac turpis egestas integer. Diam vel quam elementum pulvinar etiam non quam. Vitae justo eget magna fermentum iaculis eu non diam phasellus. Gravida in fermentum et sollicitudin ac orci phasellus egestas. Dictumst vestibulum rhoncus est pellentesque. Lacus sed turpis tincidunt id aliquet risus. Turpis egestas pretium aenean pharetra magna ac. Lobortis scelerisque fermentum dui faucibus in. Pharetra diam sit amet nisl suscipit adipiscing. Id diam maecenas ultricies mi. Ipsum dolor sit amet consectetur. Eget mi proin sed libero enim sed faucibus turpis in. Phasellus vestibulum lorem sed risus ultricies tristique nulla.
+        <h2 class="heading">Projects</h2>
 
-        Ornare quam viverra orci sagittis eu volutpat odio. Dolor morbi non arcu risus quis varius. Egestas diam in arcu cursus euismod quis viverra nibh. Integer eget aliquet nibh praesent tristique magna sit amet purus. Aenean pharetra magna ac placerat vestibulum lectus mauris ultrices eros. Ut pharetra sit amet aliquam id diam. Mi proin sed libero enim sed faucibus turpis in eu. Sit amet consectetur adipiscing elit duis tristique. Ut aliquam purus sit amet. Maecenas accumsan lacus vel facilisis. Lectus urna duis convallis convallis. Morbi tincidunt augue interdum velit euismod in pellentesque. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor.
+        <div class="align-contain">
+        <!-- Card -->
+        <div class="contain">
+            <div class="kard col-sm-8 col-md-5 col-lg-4 col-xl-3">
+                
+                    <div class="header"><a class="no-ul" href="https://github.com/justinhorein/Python_Django_Live_Project" target="_blank">Django Live Project</a></div>
+                    <div class="description">&nbsp;&nbsp;&nbsp;A web app I built as part of an internship for Prosper I.T. Consulting. The application queries a Movie Database API (IMDB Alternative) and displays results accordingly. Along with the ability to search for movies, you can store titles you have already seen or own into a database (denoting details like Year Released and The Platform you have access to it on). It's here to help organize your Film Watching experience.
+                    </div>
+                <div class="g-contain">
+                    <button class="g-button" onclick="openDLP()">Github</button>
+                </div>
+            </div>
 
-        Tortor pretium viverra suspendisse potenti nullam ac tortor vitae purus. Arcu cursus vitae congue mauris. Lorem mollis aliquam ut porttitor leo. Egestas sed tempus urna et pharetra pharetra massa massa ultricies. Eu turpis egestas pretium aenean pharetra magna ac placerat. Pellentesque elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at. Mi bibendum neque egestas congue quisque. Urna porttitor rhoncus dolor purus non enim praesent elementum facilisis. Convallis posuere morbi leo urna molestie. Vulputate ut pharetra sit amet. Vulputate mi sit amet mauris commodo. In hendrerit gravida rutrum quisque non. Egestas integer eget aliquet nibh praesent tristique magna sit. Eget mi proin sed libero. Sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Id venenatis a condimentum vitae sapien.
+            <!-- Card -->
+            <div class="kard col-sm-8 col-md-5 col-lg-4 col-xl-3">
+                    <div class="header"><a class="no-ul" href="https://github.com/justinhorein/C_Sharp_Live_Project/blob/master/C%23%20LP%20Summary.pdf" target="_blank">C#/.Net Live Project</a></div>
+                    <div class="description">&nbsp;&nbsp;&nbsp;Another internship I did with Prosper IT Consulting, in which I helped develop a website for Theater Vertigo ( SE Portland).  Most of my effort was spent styling 5 pages for the Ticket Management section of the website where I gained a lot of experience in the front-end, working with  Bootstrap in particular.  I also  completed one back-end story.  Like the Django Project, we worked in sprints in practice of the Agile/Scrum methodology.   
+                    </div>
+                <div class="g-contain">
+                    <button class="g-button" onclick="openCSLP()">Github</button>
+                </div>
+            </div>
 
-        Blandit massa enim nec dui nunc mattis. Eget velit aliquet sagittis id consectetur purus ut faucibus pulvinar. Scelerisque fermentum dui faucibus in ornare quam viverra orci. Nibh mauris cursus mattis molestie a iaculis at erat pellentesque. Etiam sit amet nisl purus in mollis nunc sed. Risus sed vulputate odio ut enim. Habitant morbi tristique senectus et netus. Erat nam at lectus urna duis convallis. Ac odio tempor orci dapibus ultrices. Fusce ut placerat orci nulla pellentesque dignissim. Neque laoreet suspendisse interdum consectetur libero id faucibus nisl. Blandit libero volutpat sed cras ornare arcu dui vivamus arcu. Pretium lectus quam id leo in vitae turpis massa. Dictum at tempor commodo ullamcorper. Porttitor eget dolor morbi non. Vulputate sapien nec sagittis aliquam malesuada. Nibh sed pulvinar proin gravida hendrerit. Aliquam etiam erat velit scelerisque in.
+            <!-- Card -->
+            <div class="kard col-sm-8 col-md-5 col-lg-4 col-xl-3">
+                    <div class="header"><a class="no-ul" href="https://github.com/justinhorein/C_Sharp_Black_Jack" target="_blank">C# Black Jack</a></div>
+                    <div class="description">&nbsp;&nbsp;&nbsp;A console app designed as a one-player game of Black Jack.  Building this project, I gained lots of experience programming in the Object-Oriented Paradigm.  I learned how to organize my code in a library, as well as utilize concepts like Polymorphism, Inheritance, Interfaces, Encapsulation and Abstract Classes.
+                    </div>
+                <div class="g-contain">
+                    <button class="g-button" onclick="openCSBJ()">Github</button>
+                </div>
+            </div>
+
+            <!-- Card -->
+            <div class="kard col-sm-8 col-md-5 col-lg-4 col-xl-3">
+                <div class="header"><a class="no-ul" href="https://github.com/justinhorein/React-Tic-Tac-Toe">React Tic-Tac-Toe</a></div>
+                    <div class="description">&nbsp;&nbsp;&nbsp;My version of the official react getting-started tutorial. Essentially, its a game of Tic-Tac-Toe with time travel functionality, meaning you can transport back to past turns and review or even rechoose your move. Read more on my Github (click below).  
+                    </div>
+                <div class="g-contain">
+                    <button class="g-button" onclick="openReactTTT()">Github</button>
+                </div>
+            </div>
+
+            <!-- Card -->
+            <div class="kard col-sm-8 col-md-5 col-lg-4 col-xl-3">
+                    <div class="header"><a class="no-ul" href="https://github.com/justinhorein/permutations" target="_blank">React Permutations</a></div>
+                    <div class="description">&nbsp;&nbsp;&nbsp;A web app that takes in a set of anything (animal names, numbers, ice cream flavors) and returns the total number of possible permutations as well as an instance of each permutation.  I got to practice recursion while writing the algorithm for this one.
+                    </div>
+                <div class="g-contain">
+                    <button class="g-button" onclick="openRP()">Github</button>
+                </div>
+            </div>
+
+            <!-- Card -->
+            <div class="kard col-sm-8 col-md-5 col-lg-4 col-xl-3">
+                    <div class="header"><a class="no-ul" href="https://github.com/justinhorein/RGB-Color-Picker" target="_blank">RGB Color Picker</a></div>
+                    <div class="description">&nbsp;&nbsp;&nbsp;A web app (written in vanilla js) designed to test your skills in identifying colors based on RGB codes.  You can play in easy mode with 3 color squares to choose from, or hard mode with 6.  I got alot of practice in functional programming while writing this.
+                    </div>
+                <div class="g-contain">
+                    <button class="g-button" onclick="openRGB()">Github</button>
+                </div>
+            </div>
+
+            <!-- Card -->
+            <div class="kard col-sm-8 col-md-5 col-lg-4 col-xl-3">
+                    <div class="header"><a class="no-ul" href="https://github.com/justinhorein/Tic-Tac-Toe" target="_blank">Tic-Tac-Toe Vanilla JS</a></div>
+                    <div class="description">&nbsp;&nbsp;&nbsp;A vanilla js web app for playing Tic-Tac-Toe (complete with sound effects).  In building this app, I gained lots of practice with functional programming and DOM manipulation. 
+                    </div>
+                <div class="g-contain">
+                    <button class="g-button" onclick="openTTT()">Github</button>
+                </div>
+            </div>
+
+            <!-- Card -->
+            <div class="kard col-sm-8 col-md-5 col-lg-4 col-xl-3">
+                    <div class="header"><a class="no-ul" href="https://github.com/justinhorein/hangman" target="_black">Hangman</a></div>
+                    <div class="description">&nbsp;&nbsp;&nbsp;A basic game of hangman for the browser.  Apart from practicing my Vanilla JS, I learned how to utilize Scalable Vector Graphics to do basic styling.
+                    </div>
+                <div class="g-contain">
+                    <button class="g-button" onclick="openHM()">Github</button>
+                </div>
+            </div>
+  
+        </div>
+        </div>
     </div>
+
+    <!-- End Kards -->
 
     
     <script src="js/nav.js"></script>

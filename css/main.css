@@ -3,7 +3,7 @@ body {
     margin: 0px;
 }
 
-.background1 {
+.section_1 {
     /* background: url("../img/desk_1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@ body {
     width: auto;
 }
 
-div.background1 img {
+div.section_1 img {
     width: 100%;
     filter: grayscale(100%);
 }
