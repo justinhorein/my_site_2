@@ -78,7 +78,7 @@ li a:hover {
 .nav_vert {
   display: none;
   flex-direction: column;
-  position: absolute;
+  position: fixed;
   left: 0;
   margin-top: 57.8px;
   background-color: white;
