@@ -3,7 +3,7 @@ body {
     margin: 0px;
 }
 
-.section_1 {
+.section-1 {
     /* background: url("../img/desk_1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -14,11 +14,26 @@ body {
     width: auto;
 }
 
-div.section_1 img {
+.section-2 {
+    margin: 20px 0px 120px 0px;
+  }
+
+.section-3 {
+    margin: 10px 0px
+}
+
+div.section-1 img {
     width: 100%;
     filter: grayscale(100%);
+}
+
+.heading {
+    text-align: center;
+    color: rgb(255, 114, 215);
+    text-decoration: underline;
 }
 
 p {
     word-wrap: break-word;
 }
+
