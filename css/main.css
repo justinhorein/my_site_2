@@ -4,14 +4,38 @@ body {
 }
 
 .section-1 {
-    /* background: url("../img/desk_1.jpg");
+    background-image: url("../img/desk_1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: absolute; */
+    background-position: top;
+    background-position: center center;
+    filter: grayscale(100%); 
     position: relative;
-    top: 0px;
-    left: 0px;
-    width: auto;
+    top: 57.6px;
+    height: 100vh;
+}
+
+.hello {
+    height: 12vh;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    transform: translateY(350%);
+    background-color: rgba(0, 0, 0, 0.747);
+    color: rgba(255, 255, 255, 0.904);
+    filter: none;
+    z-index: 1000;
+    font-size: 50px;
+    cursor: default;
+}
+
+.hello div {
+    font-size: 20px;
+}
+
+.hello:hover {
+    display: none;
 }
 
 .section-2 {
