@@ -9,7 +9,7 @@
 .boo {
     height: 10px;
     width: 10px;
-    margin: auto;
+    margin: 80px auto;
     /* first-square */
     background-color: var(--o);
     /* first line */
@@ -24,4 +24,6 @@
     0px 40px 0 var(--o), 10px 40px 0 black,20px 40px 0 white,30px 40px 0 black,40px 40px 0 white,50px 40px 0 black,60px 40px 0 white,70px 40px 0 white,80px 40px 0 white,90px 40px 0 white,100px 40px 0 white,110px 40px 0 white,120px 40px 0 white,130px 40px 0 white,140px 40px 0 black,150px 40px 0 var(--o),
     /* sixth line */
     0px 50px 0 black, 10px 50px 0 white,20px 50px 0 white,30px 50px 0 black,40px 50px 0 white,50px 50px 0 black,60px 50px 0 white,70px 50px 0 white,80px 50px 0 white,90px 50px 0 white,100px 50px 0 black,110px 50px 0 black,120px 50px 0 black,130px 50px 0 white,140px 50px 0 white,150px 50px 0 black;
+
+
 }

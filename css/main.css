@@ -22,8 +22,8 @@ body {
     text-align: center;
     padding: 10px;
     transform: translateY(350%);
-    background-color: rgba(0, 0, 0, 0.747);
-    color: rgba(255, 255, 255, 0.904);
+    /* background-color: rgba(0, 0, 0, 0.747); */
+    color: rgba(255, 255, 255, 1);
     filter: none;
     z-index: 1000;
     font-size: 50px;
