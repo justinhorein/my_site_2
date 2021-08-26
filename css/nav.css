@@ -20,6 +20,10 @@
   background-color: rgb(240, 240, 240);
 }
 
+.opaque {
+  background-color: rgba(240, 240, 240, 0.932);
+}
+
 ul { 
   list-style-type: none;
   position: absolute;
@@ -45,6 +49,8 @@ li a {
 
 li a:hover {
   background-color: var(--neon-yellow);
+  color: var(--grey);
+  -webkit-text-stroke: .6px black;
 }
 
 .hamburger {
