@@ -1,5 +1,6 @@
 body {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Press Start 2P', 'Roboto Mono', monospace;
+    line-height: normal;
     margin: 0px;
 }
 
@@ -26,12 +27,14 @@ body {
     color: rgba(255, 255, 255, 1);
     filter: none;
     z-index: 1000;
-    font-size: 50px;
+    font-size: 40px;
     cursor: default;
 }
 
 .hello div {
-    font-size: 20px;
+    margin-top: 8px;
+    line-height: 1.6;
+    font-size: 16px;
 }
 
 .hello:hover {

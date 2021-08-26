@@ -15,7 +15,7 @@ burger.addEventListener("click", flipBurger);
 // CLOSE VERTICAL NAV IF REGULAR NAV IS SHOWING 
 
 function closeVert(){
-    if (window.innerWidth > 600){
+    if (window.innerWidth > 720){
         navVert.classList.remove("displayVert");
     }
 };
