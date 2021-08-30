@@ -104,3 +104,26 @@ li a:hover {
 .displayVert {
   display: flex;
 }
+
+/* Nav Scroll Effect */
+
+@keyframes fadeup {
+  0% {  }
+  100% { transform: translateY(-100%); }
+}
+
+.not-displaying {
+  animation-name: fadeup;
+  animation-duration: 1s;
+}
+
+@keyframes fadedown {
+  0% {  }
+  100% { transform: translateY(0%); }
+}
+
+.displaying {
+  animation-name: fadedown;
+  animation-duration: 1s;
+}
+

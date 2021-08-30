@@ -22,3 +22,41 @@ function closeVert(){
 
 window.onresize = closeVert;
 
+// Set Nav Solid Black at Top of Scroll
+
+document.addEventListener("scroll", function () {
+  const navbar = document.querySelector(".nav");
+  const navbarHeight = 1;
+
+  const distanceFromTop = Math.abs(
+    document.body.getBoundingClientRect().top
+  );
+
+  if (distanceFromTop >= navbarHeight) {
+    navbar.classList.add("opaque"); 
+  } else {
+    navbar.classList.remove("opaque");
+  } 
+});
+
+// Nav Disapears while Scrolling Down
+
+const nav = document.querySelector(".nav");
+
+window.onscroll = function(e) {
+
+    // scroll down
+  if ((this.oldScroll >= this.scrollY) == false){
+      nav.classList.remove("displaying");
+      nav.classList.add("not-displaying");
+      setTimeout(function(){ nav.style.transform = "translateY(-100%)"; }, 800);
+  } 
+  // scroll up
+  else {
+      nav.classList.remove("not-displaying");
+      nav.classList.add("displaying");
+      setTimeout(function(){ nav.style.transform = "translateY(-0%)"; }, 800);
+  }
+
+  this.oldScroll = this.scrollY;
+}

@@ -30,22 +30,6 @@ function openHM() {
     window.open("https://github.com/justinhorein/hangman", "_blank");
 }
 
-// Set Nav Solid Black at Top of Scroll
-
-document.addEventListener("scroll", function () {
-  const navbar = document.querySelector(".nav");
-  const navbarHeight = 1;
-
-  const distanceFromTop = Math.abs(
-    document.body.getBoundingClientRect().top
-  );
-
-  if (distanceFromTop >= navbarHeight) {
-    navbar.classList.add("opaque"); 
-  } else {
-    navbar.classList.remove("opaque");
-  } 
-});
 
 // Form Validation
 
