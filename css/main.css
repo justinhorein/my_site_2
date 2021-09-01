@@ -3,6 +3,10 @@
     --blue: rgb(31, 176, 253);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Press Start 2P', 'Roboto Mono', monospace;
     line-height: normal;
@@ -47,17 +51,43 @@ body {
 }
 
 .section-2 {
-    margin: 0px 0px 120px 0px;
+    padding-top: 80px;
 }
+
+/* About Section */
 
 .about-me {
     text-align: center;
     color: var(--neon-green);
     -webkit-text-stroke: 1px black;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.expertise-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.expertise-box {
+    margin: 0px 10px 20px 10px;
+}
+
+.expertise-label {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.expertise-bar {
+    width: 300px;
+    height: 16px;
+    margin: auto;
+    background-color: var(--nav-grey);
 }
 
 .section-3 {
-    margin: 10px 0px
+    padding-top: 60px;
 }
 
 div.section-1 img {

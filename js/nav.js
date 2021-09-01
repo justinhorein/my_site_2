@@ -41,22 +41,22 @@ document.addEventListener("scroll", function () {
 
 // Nav Disapears while Scrolling Down
 
-const nav = document.querySelector(".nav");
+// const nav = document.querySelector(".nav");
 
-window.onscroll = function(e) {
+// window.onscroll = function(e) {
 
-    // scroll down
-  if ((this.oldScroll >= this.scrollY) == false){
-      nav.classList.remove("displaying");
-      nav.classList.add("not-displaying");
-      setTimeout(function(){ nav.style.transform = "translateY(-100%)"; }, 800);
-  } 
-  // scroll up
-  else {
-      nav.classList.remove("not-displaying");
-      nav.classList.add("displaying");
-      setTimeout(function(){ nav.style.transform = "translateY(-0%)"; }, 800);
-  }
+//     // scroll down
+//   if ((this.oldScroll >= this.scrollY) == false){
+//       nav.classList.remove("displaying");
+//       nav.classList.add("not-displaying");
+//       setTimeout(function(){ nav.style.transform = "translateY(-100%)"; }, 800);
+//   } 
+//   // scroll up
+//   else {
+//       nav.classList.remove("not-displaying");
+//       nav.classList.add("displaying");
+//       setTimeout(function(){ nav.style.transform = "translateY(-0%)"; }, 800);
+//   }
 
-  this.oldScroll = this.scrollY;
-}
+//   this.oldScroll = this.scrollY;
+// }

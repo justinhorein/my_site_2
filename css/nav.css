@@ -2,6 +2,8 @@
   --grey: rgb(169, 169, 169);
   --neon-green: rgb(64, 255, 0);
   --neon-yellow: rgba(242, 255, 0, 0.55);
+  --nav-grey: rgb(240, 240, 240);
+  --nav-grey-opaque: rgba(240, 240, 240, 0.932);
 }
 
 .nav {
@@ -50,7 +52,6 @@ li a {
 
 li a:hover {
   background-color: var(--neon-yellow);  
-  height: 57.6px;
   color: var(--neon-green);
   -webkit-text-stroke: .5px black;
 }
@@ -92,13 +93,18 @@ li a:hover {
   position: fixed;
   left: 0;
   margin-top: 57.8px;
-  background-color: white;
-  color: var(--grey);
+  color: black;
   z-index: 100;
 }
 
 .vert_cell {
+  background-color: var(--nav-grey-opaque);
   border-bottom: 1px solid black;
+  padding: 20px 12px;
+}
+
+.vert_cell:first-of-type {
+  border-top: 1px solid black;
 }
 
 .displayVert {
