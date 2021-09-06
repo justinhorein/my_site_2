@@ -16,8 +16,8 @@
 <body>
     <div class="nav">
         <img class="hamburger" src="img/hamburger.jpeg">
-        <ul>
-            <li><a href="#hello"><span class="text">Hello</span></a></li>
+        <ul class="nav-cells"> 
+            <li><a href="#hello">Hello</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>           
@@ -27,14 +27,14 @@
 
     <!-- Hidden Vertical Nav -->
     <ul class="nav_vert">
-            <li><a class="vert_cell" href="#hello">Hello</a></li>
-            <li><a class="vert_cell" href="#about">About</a></li>
-            <li><a class="vert_cell" href="#projects">Projects</a></li>
-            <li><a class="vert_cell" href="#contact">Contact</a></li>           
+            <li class="vert_list"><a class="vert_cell" href="#hello">Hello</a></li>
+            <li class="vert_list"><a class="vert_cell" href="#about">About</a></li>
+            <li class="vert_list"><a class="vert_cell" href="#projects">Projects</a></li>
+            <li class="vert_list"><a class="vert_cell" href="#contact">Contact</a></li>           
     </ul>
 
     <!-- Hello Section -->
-    <div class="section-1" id="hello">
+    <div class="section-1 section" id="hello">
         <div class="hello">
             Hello! 
             <div> 
@@ -43,7 +43,7 @@
         </div>
     </div>
 
-    <div class="section-2" id="about">
+    <div class="section-2 section" id="about">
 
         <div class="about-me">About Myself</div>
         <div class="boo"></div>
@@ -78,7 +78,7 @@
     </div>
 
     <!-- // Kards -->
-    <div class="section-3" id="projects">
+    <div class="section-3 section" id="projects">
 
         <h2 class="heading">Projects</h2>
 
@@ -174,5 +174,6 @@
     
     <script src="js/nav.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/scrollspy.js"></script>
 </body>
 </html>
