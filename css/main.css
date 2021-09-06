@@ -52,6 +52,7 @@ body {
 
 .section-2 {
     padding-top: 80px;
+    margin: 0px 5% 40px;
 }
 
 /* About Section */
@@ -62,6 +63,18 @@ body {
     -webkit-text-stroke: 1px black;
     font-size: 20px;
     margin-bottom: 40px;
+}
+
+.my-name-is {
+    margin: 205px 10% 80px;
+    line-height: 24px;
+    color: var(--grey);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+
+.link {
+    color: var(--blue);
 }
 
 .expertise-row {
@@ -84,6 +97,30 @@ body {
     height: 16px;
     margin: auto;
     background-color: var(--nav-grey);
+}
+
+.expertise-amount-1 {
+    background-color: var(--neon-green);
+    width: 200px;
+    height: 16px;
+}
+
+.expertise-amount-2 {
+    background-color: var(--neon-green);
+    width: 140px;
+    height: 16px;
+}
+
+.expertise-amount-3 {
+    background-color: var(--neon-green);
+    width: 120px;
+    height: 16px;
+}
+
+.expertise-amount-4 {
+    background-color: var(--neon-green);
+    width: 100px;
+    height: 16px;
 }
 
 .section-3 {

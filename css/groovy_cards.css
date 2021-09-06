@@ -1,3 +1,7 @@
+:root {
+    --light-grey: rgb(251, 251, 251);
+}
+
 .align-contain { 
     display: flex;
     justify-content: center;
@@ -33,7 +37,7 @@
     font-family: 'Roboto Mono', monospace;
     border: 1px solid black;
     border-radius: 2px;
-    background-color: white;
+    background-color: var(--light-grey);
     position: relative;
     margin: 20px;
     top: 0px;
