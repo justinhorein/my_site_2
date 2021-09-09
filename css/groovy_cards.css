@@ -37,7 +37,7 @@
     font-family: 'Roboto Mono', monospace;
     border: 1px solid black;
     border-radius: 2px;
-    background-color: var(--light-grey);
+    background-color: white;
     position: relative;
     margin: 20px;
     top: 0px;

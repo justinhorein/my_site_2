@@ -125,6 +125,7 @@ body {
 
 .section-3 {
     padding-top: 60px;
+    background-color: var(--nav-grey);
 }
 
 div.section-1 img {
@@ -139,7 +140,67 @@ div.section-1 img {
     text-decoration-color: black;
 }
 
+/* .heading-section-2 {
+    text-align: center;
+    color: var(--pink);;
+    text-decoration: underline;
+    text-decoration-color: black;
+} */
+
 p {
     word-wrap: break-word;
 }
 
+/* Email Form */
+
+.section-4  {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.email {
+    margin: 60px auto 60px auto;
+    max-width: 600px;
+    background-color: var(--blue);
+    padding: 45px 40px 25px 40px;
+    border: solid rgba(0, 0, 0, 0.747) 1px;
+    border-radius: 4px;
+}
+
+.email:hover {
+    cursor: pointer;
+    z-index: 5;
+    -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1), 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1), 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+    -webkit-transform: translateY(-3px);
+    transform: translateY(-3px);
+}
+
+button.ui.button {
+    margin-top: 5px;
+    padding: 14px;
+    font-family: 'Press Start 2P', 'Roboto Mono', monospace;
+}
+
+button.ui.button:hover{
+    -webkit-transform: translateY(-1px);
+    transform: translateY(-1px); 
+    box-shadow: 0px 1px 1px var(--opaque);
+}
+
+/* Footer */
+
+.footer {
+    padding: 5px 0px 20px 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: block;
+    
+}
+
+.linkedin {
+    width: 45px;
+    height: auto;
+    border-radius: 4px;
+}
