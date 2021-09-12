@@ -1,5 +1,7 @@
 #snackbar {
     visibility: hidden;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
     min-width: 250px;
     background-color: var(--neon-yellow-solid);
     color: var(--neon-green);
@@ -11,7 +13,6 @@
     padding: 16px;
     position: fixed;
     z-index: 100;
-    font-size: 17px;
     left: 50%;
     bottom: 70px;
     transform: translate(-50%, -0%);
