@@ -2,6 +2,7 @@
   --grey: rgb(169, 169, 169);
   --neon-green: rgb(64, 255, 0);
   --neon-yellow: rgba(242, 255, 0, 0.55);
+  --neon-yellow-solid: rgba(242, 255, 0);
   --nav-grey: rgb(240, 240, 240);
   --nav-grey-opaque: rgba(240, 240, 240, 0.932);
 }
@@ -74,7 +75,7 @@ a.vert_cell:hover {
   text-align: center;
   padding: 18.5px 20px;
   color: var(--neon-green);
-  -webkit-text-stroke: .2px black;
+  -webkit-text-stroke: .4px black;
   font-size: 18px;
   font-weight: 900;
   text-shadow: 1.5px 2px var(--grey);

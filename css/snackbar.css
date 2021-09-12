@@ -1,8 +1,10 @@
 #snackbar {
     visibility: hidden;
     min-width: 250px;
-    background-color: white;
-    color: red;
+    background-color: var(--neon-yellow-solid);
+    color: var(--neon-green);
+    -webkit-text-stroke-width: .4px;
+    -webkit-text-stroke-color: black;
     border: 1px solid black;
     text-align: center;
     border-radius: 2px;
@@ -11,7 +13,7 @@
     z-index: 100;
     font-size: 17px;
     left: 50%;
-    bottom: 50px;
+    bottom: 70px;
     transform: translate(-50%, -0%);
   }
   
@@ -23,20 +25,20 @@
   
   @-webkit-keyframes fadein {
     from {bottom: 0; opacity: 0;} 
-    to {bottom: 50px; opacity: 1;}
+    to {bottom: 70px; opacity: 1;}
   }
   
   @keyframes fadein {
     from {bottom: 0; opacity: 0;}
-    to {bottom: 50px; opacity: 1;}
+    to {bottom: 70px; opacity: 1;}
   }
   
   @-webkit-keyframes fadeout {
-    from {bottom: 50px; opacity: 1;} 
+    from {bottom: 70px; opacity: 1;} 
     to {bottom: 0; opacity: 0;}
   }
   
   @keyframes fadeout {
-    from {bottom: 50px; opacity: 1;}
+    from {bottom: 70px; opacity: 1;}
     to {bottom: 0; opacity: 0;}
   }
