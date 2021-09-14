@@ -9,6 +9,8 @@ html {
 
 body {
     font-family: 'Press Start 2P', 'Roboto Mono', monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     line-height: normal;
     margin: 0px;
 }
