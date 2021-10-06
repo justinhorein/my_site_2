@@ -121,10 +121,39 @@ body {
     color: var(--blue);
 }
 
-.expertise-row {
+.expertise-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.expertise-row {
+    display: inline-flex;
+    justify-content: flex-start;
     flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 800px) {
+  .expertise-row {
+    width: 320px;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+  .expertise-row {
+    width: 640px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+  .expertise-row {
+    width: 960px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+  .expertise-row {
+    width: 1280px;
+    }
 }
 
 .expertise-box {
