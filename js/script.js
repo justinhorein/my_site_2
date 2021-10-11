@@ -26,6 +26,6 @@ function openCI() {
     window.open("https://github.com/justinhorein/Car-Insurance-Quote-Generator", "_blank");
 }
 
-function openHM() {
-    window.open("https://github.com/justinhorein/hangman", "_blank");
+function openMTGNode() {
+    window.open("https://github.com/justinhorein/mtg-node", "_blank");
 }
