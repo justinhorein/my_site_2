@@ -1,5 +1,19 @@
 let menuSection = document.querySelectorAll('.nav-cells li a');
 let menuVert = document.querySelectorAll('.nav_vert li a');
+var gapVariable;
+
+function setGapVariable() {
+    // Cell higlight change on mobile view
+    if (window.innerWidth < "400") {
+        gapVariable = 580;
+    } else {
+        gapVariable = 800;
+    }
+}
+
+setGapVariable();
+
+window.onresize = setGapVariable;
 
 
 // Set Hello Cell as active when the page loads.
@@ -35,7 +49,7 @@ window.onscroll = (() => {
 
     mainSection.forEach((v,i) => {
         let rect = v.getBoundingClientRect().y
-        if (rect < window.innerHeight - 700){
+        if (rect < window.innerHeight - gapVariable){
             menuSection.forEach(v => v.classList.remove('active'))
             menuSection[i].classList.add('active')
             menuVert.forEach(v => v.classList.remove('active'))
