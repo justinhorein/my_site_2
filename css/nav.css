@@ -98,7 +98,6 @@ a.vert_cell:hover {
   left: 0;
   margin-top: 58.8px;
   z-index: 100;
-  
 }
 
 .vert_list {
@@ -112,6 +111,15 @@ a.vert_cell:hover {
 
 .vert_cell:first-of-type {
   border-top: 1px solid black;
+}
+
+/* Round Bottom Corner of Nav Vert */
+.vert_list:last-child {
+  border-bottom-right-radius: 3px;
+}
+
+.vert_list:last-child .vert_cell {
+  border-bottom-right-radius: 3px;
 }
 
 .displayVert {
