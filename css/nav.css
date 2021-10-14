@@ -97,9 +97,12 @@ a.vert_cell:hover {
   position: fixed;
   left: 0;
   margin-top: 58.8px;
-  color: black;
   z-index: 100;
   
+}
+
+.vert_list {
+  background-color: var(--nav-grey);
 }
 
 .vert_cell {
