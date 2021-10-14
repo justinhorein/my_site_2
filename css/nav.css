@@ -35,7 +35,6 @@ ul {
 
 li {
   float: left;
-  background-color: var(--nav-grey);
 }
 
 li a {
